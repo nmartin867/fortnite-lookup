@@ -13,7 +13,7 @@ const axiosInstance = axios.create({
 axiosInstance.interceptors.request.use(config => {
     // const token = localStorage.getItem('token');
     // if (token) config.headers.Authorization = '97a4eb22-73d9832a-1e074b83-b6e12efd';
-    config.headers.Authorization = '97a4eb22-73d9832a-1e074b83-b6e12efd';
+    // config.headers.Authorization = '';
     return config;
 });
 
